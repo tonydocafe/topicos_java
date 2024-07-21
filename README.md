@@ -18,5 +18,5 @@ as exibições são feitas através de : " system.out.print " e " system.out.pri
 
 o objeto se fecha com : .close();
 
-# triangulo.java
+
 
