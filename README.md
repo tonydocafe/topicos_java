@@ -17,3 +17,6 @@ e dentro o metodo main que recebe argumentos
 as exibições são feitas através de : " system.out.print " e " system.out.println " // print = não continua na linha ; println = continua na linha 
 
 o objeto se fecha com : .close();
+
+# triangulo.java
+
