@@ -1,22 +1,46 @@
-# multiplica.java
+# Tópicos em Java
 
-- biblioteca 
+## Descrição
+Este repositório contém quatro programas escritos em Java para diferentes finalidades:
 
-A biblioteca utilizada é a java.util onde se importa uma classe chamad Scanner que traz a função de poder receber entradas do usuario.
-que vai ser utilizada para receber os números a serem multiplicados
+1. **alunos_media**: Calcula a média de notas de estudantes e a média da turma.
+2. **celsius_fahrenheit**: Converte temperaturas de Celsius para Fahrenheit.
+3. **multiplica**: Multiplica dois números inteiros fornecidos pelo usuário.
+4. **triangulo**: Calcula a área de um triângulo a partir de seus três lados usando a fórmula de Heron.
 
+## Compilação e Execução
+Cada programa pode ser compilado individualmente utilizando o `javac` e executado com `java`.
 
-" Scanner entrada = new Scanner(System.in);
-int numero1 = entrada.nextInt();
-int numero2 = entrada.nextInt();" 
+### Compilação
 
-- classe e metodo
-Esse script é algo muito simples e não foram criadas funções específica para a multiplicação a classe foi nomeada multiplicada
-e dentro o metodo main que recebe argumentos
+```sh
+javac alunos_media.java celsius_fahrenheit.java multiplica.java triangulo.java
+```
 
-as exibições são feitas através de : " system.out.print " e " system.out.println " // print = não continua na linha ; println = continua na linha 
+### Execução
 
-o objeto se fecha com : .close();
+Para executar um dos programas, use:
 
+```sh
+java NomeDoPrograma
+```
 
+Por exemplo, para rodar o programa de cálculo de média:
+
+```sh
+java alunos_media
+```
+
+## Estrutura dos Programas
+
+- **alunos_media.java**: Lê o número de estudantes, solicita suas três notas, calcula a média individual e a média da turma.
+- **celsius_fahrenheit.java**: Converte uma temperatura de Celsius para Fahrenheit.
+- **multiplica.java**: Solicita dois números inteiros e exibe o resultado da multiplicação.
+- **triangulo.java**: Calcula a área de um triângulo a partir de três lados informados pelo usuário.
+
+## Dependências
+Os programas utilizam apenas a biblioteca padrão do Java (`java.util.Scanner`) para entrada de dados.
+
+## Autor
+Tony Hudson Candido Junior
 
